@@ -1,0 +1,20 @@
+<div ng-repeat="section in page.sections">
+    
+    <div ng-class="section.divClass">
+        <div class="container">
+            <div class="row">
+                <div ng-class="section.contentClass">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" ng-bind-html="section.title"></h2>
+                    <p class="lead" ng-bind-html="section.content"></p>
+                </div>
+                <div ng-class="section.imageClass">
+                    <img class="img-responsive" ng-src="{{section.image}}" alt="">
+                </div>
+            </div>
+    
+        </div>
+        <!-- /.container -->    
+    </div>
+</div>
