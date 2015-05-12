@@ -10,10 +10,10 @@ Theme based on [landing-page bootstrap theme](http://startbootstrap.com/template
  - Multilinguage functionality.
 
 ## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+View this theme in action [here](http://renanzeira.github.io/landing-page-angular/)
 
 ## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
+![screenshot](http://www.renanzeira.com/resources/landing-page-angular.jpg)
 
 ===
 
