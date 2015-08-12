@@ -21,44 +21,69 @@ app.controller('DefaultController', function ($sce, $scope) {
     $scope.page = {
         links: {
             about: 'About',
-            services: 'Services',
+            services: 'Chatbox',
             contact: 'Contact'
         },
         header: {
-            title: 'Landing Page',
-            subtitle: 'A Template by Start Bootstrap'                        
+            title: 'Ionic App Labs',
+            subtitle: 'Javascript Cross-Platform Full Stack Solution'                        
         },
         sections: [
             {
                 divClass: sectionClassesLeft.div,
                 contentClass: sectionClassesLeft.content,
                 imageClass: sectionClassesLeft.image,
-                title: $sce.trustAsHtml('Death to the Stock Photo:<br>Special Thanks'),
-                content: $sce.trustAsHtml('A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.'),
-                image: 'img/ipad.png'
+                title: $sce.trustAsHtml('Easy to Find and Chat Cross Platforms'),
+                content: $sce.trustAsHtml('<ul><li>Contact Management</li><li>Enterprise Directory Integration<ul><li>Active Directory</li><li>LDAP</li></ul></li><li>Chat Room Management</li></ul>'),
+                image: 'img/phones.png'
             },
             {
                 divClass: sectionClassesRight.div,
                 contentClass: sectionClassesRight.content,
                 imageClass: sectionClassesRight.image,
-                title: $sce.trustAsHtml('3D Device Mockups<br>by PSDCovers'),
-                content: $sce.trustAsHtml('Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!'),
-                image: 'img/dog.png'
+                title: $sce.trustAsHtml('Support Multiple File Formats and Easy to Share'),
+                content: $sce.trustAsHtml('<ul><li>Text (Collapse/Expand-able if long messages)</li><li>Image</li><li>Audio</li><li>Video</li><li>Document</li><li>URL - Preview to prevent unsafes</li></ul>'),
+                image: 'img/phones-1.png'
             },
             {
                 divClass: sectionClassesLeft.div,
                 contentClass: sectionClassesLeft.content,
                 imageClass: sectionClassesLeft.image,
-                title: $sce.trustAsHtml('Google Web Fonts and<br>Font Awesome Icons'),
-                content: $sce.trustAsHtml('This template features the \'Lato\' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.'),
-                image: 'img/phones.png'
-            }
+                title: $sce.trustAsHtml('Messages will be Never Hard to Find through Useful Filter and Label Tools'),
+                content: $sce.trustAsHtml('<ul><li>Label/Unlabel Message</li><li>Star/Unstar Message</li><li>Full-Text Search</li><li>Filter by Who/When/Labels(Tags)</li></ul>'),
+                image: 'img/phones-2.png'
+            },
+            {
+                divClass: sectionClassesRight.div,
+                contentClass: sectionClassesRight.content,
+                imageClass: sectionClassesRight.image,
+                title: $sce.trustAsHtml('Cooperate and Manage Files in the Project/Team Room'),
+                content: $sce.trustAsHtml('<ul><li>Search File by Format</li><li>Label(Tag) Management</li><li>Quick Sharing</li></ul>'),
+                image: 'img/phones-3.png'
+            },
+            {
+                divClass: sectionClassesLeft.div,
+                contentClass: sectionClassesLeft.content,
+                imageClass: sectionClassesLeft.image,
+                title: $sce.trustAsHtml('Shared Links will be Retained and Easy to Find and Manage'),
+                content: $sce.trustAsHtml('<ul><li>Preview Abstract of URLs</li><li>Label/Star Management</li><li>Quick Sharing</li><li>Remove Duplicates</li></ul>'),
+                image: 'img/phones-4.png'
+            },
+            {
+                divClass: sectionClassesRight.div,
+                contentClass: sectionClassesRight.content,
+                imageClass: sectionClassesRight.image,
+                title: $sce.trustAsHtml('Group Voice/Video Conference'),
+                content: $sce.trustAsHtml('<ul><li>Voice/Video Togglable</li><li>Maximum 9 Members</li><li>P-to-P WebRTC</li></ul>'),
+                image: 'img/phones-5.png'
+            },
         ],
         contact: {
-            title: 'Connect to Start Bootstrap:'
+            title: 'ionicapplabs@gmail.com',
+            github: 'https://github.com/IonicAppLabs'
         },
         footer: {
-            title: 'Copyright © Your Company 2015. All Rights Reserved'
+            title: 'Copyright © Ionic App Labs 2015. All Rights Reserved'
         }
     };
 });
